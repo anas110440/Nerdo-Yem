@@ -1,7 +1,5 @@
 @media (max-width: 575px) {
-    .container{
-        width: 540px;
-    }
+ 
     .navbar{
         padding: 20px 0;
     }
@@ -36,6 +34,9 @@
 
         .clints table img{
             width: 100%;
+        }
+        .clints table thead th, .clints table tbody th, .clints table tbody td{
+            padding: 10px;
         }
         .clints{
             overflow: hidden;
@@ -162,6 +163,10 @@
         
 
 }
+@media (min-width: 991px) {
 
+.container{
+    width: 80%;
+}
 
-
+}
