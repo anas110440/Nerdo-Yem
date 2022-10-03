@@ -1,4 +1,7 @@
 @media (max-width: 575px) {
+    .container{
+        width: 540px;
+    }
     .navbar{
         padding: 20px 0;
     }

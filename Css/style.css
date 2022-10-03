@@ -377,3 +377,6 @@ font-weight: 400;
     color: var(--nerdo);
 }
 /* End Footer */
+.container{
+    width: 80%;
+}
