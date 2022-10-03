@@ -48,7 +48,7 @@
             text-align: center;
         }
         .footer .one ul{
-            flex-wrap: inherit;
+            flex-wrap: wrap!important;
         }
         .footer .tow{
             margin-bottom: 30px;
@@ -58,16 +58,22 @@
         }
         .footer .tow ul li{
             font-size: 14px;
+            text-align: center;
         }
         .footer .tow ul li i{
-            margin-right: 5px!important;
+            margin-right: 0px!important;
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;
         }
 
 
         .footer .three{
             text-align: right;
         }
-     
+        .footer .three a{
+            margin-right: 1px;
+        }
 }
 
   @media (max-width: 767px) {
